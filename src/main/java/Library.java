@@ -9,7 +9,7 @@ public class Library {
         return true;
     }
 
-    public void someNotUsedMethod() {
-        System.out.println("call me maybe...");
+    public String someNotUsedMethod() {
+        return "call me maybe...";
     }
 }
