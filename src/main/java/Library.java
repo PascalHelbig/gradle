@@ -10,6 +10,6 @@ public class Library {
     }
 
     public void someNotUsedMethod() {
-        System.out.println("call me maybe.");
+        System.out.println("call me maybe...");
     }
 }
