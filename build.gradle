@@ -42,6 +42,13 @@ check.dependsOn = [
         'coveralls'
 ]
 
+jacocoTestReport {
+    reports {
+        xml.enabled = true // coveralls plugin depends on xml format report
+        html.enabled = true
+    }
+}
+
 findbugsMain {
     reports {
         xml.enabled = true
