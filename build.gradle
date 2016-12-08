@@ -55,7 +55,3 @@ findbugsMain {
         html.enabled = false
     }
 }
-
-tasks.coveralls {
-    dependsOn 'check'
-}
