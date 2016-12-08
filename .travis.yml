@@ -1,4 +1,4 @@
 language: java
 sudo: required
 after_success:
-- ./gradlew check
+- ./gradlew test jacocoTestReport coveralls
