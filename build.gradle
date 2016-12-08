@@ -39,7 +39,6 @@ check.dependsOn = [
         'test',
         'jacocoTestReport',
         'findbugsMain',
-        'coveralls'
 ]
 
 jacocoTestReport {
